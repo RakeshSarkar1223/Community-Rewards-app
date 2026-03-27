@@ -1,22 +1,72 @@
-# Soroban Project
+# 🌟 Community Rewards - Soroban Smart Contract
 
-## Project Structure
+## 📌 Project Description
 
-This repository uses the recommended structure for a Soroban project:
+Community Rewards is a simple decentralized smart contract built on the Stellar Soroban platform. It enables communities to reward users with points for their contributions, participation, or achievements in a transparent and tamper-proof way.
 
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
-```
+This contract is designed as a foundational system that can be extended into full reward ecosystems like loyalty programs, DAO incentives, or gamified platforms.
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
+---
+
+## ⚙️ What It Does
+
+* Allows an admin to assign reward points to users
+* Stores user rewards securely on-chain
+* Enables anyone to check reward balances
+* Ensures only authorized admin can distribute rewards
+
+---
+
+## ✨ Features
+
+### 🔐 Admin-Controlled Rewards
+
+* Only the authorized admin can assign reward points
+* Prevents unauthorized reward manipulation
+
+### 👤 User Reward Tracking
+
+* Each user has a reward balance stored on-chain
+* Easy retrieval of reward points
+
+### ⚡ Lightweight & Efficient
+
+* Minimal logic for fast execution on Soroban
+* Uses efficient storage with `Map<Address, u32>`
+
+### 🔍 Transparent System
+
+* All reward allocations are verifiable on-chain
+* Promotes trust in community systems
+
+### 🚀 Extensible Design
+
+This contract can be extended with:
+
+* Token redemption systems
+* NFT rewards
+* Tier-based rewards
+* Expiry mechanisms
+* Multiple admins or DAO governance
+
+---
+
+## 🛠️ Future Improvements
+
+* Add role-based access control (RBAC)
+* Introduce reward history logs
+* Add reward claiming or redeeming functionality
+* Integrate with frontend dashboard
+
+---
+
+## 📦 Tech Stack
+
+* Rust
+* Soroban SDK (Stellar Smart Contracts)
+
+---
+
+## 📜 License
+
+MIT License
