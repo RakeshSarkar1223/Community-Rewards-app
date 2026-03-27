@@ -1,5 +1,5 @@
 <img width="1920" height="1080" alt="Screenshot 2026-03-27 134423" src="https://github.com/user-attachments/assets/f0400994-1bca-4045-a943-2edc75f687cf" />
-
+https://stellar.expert/explorer/testnet/contract/CDV4LV2CIOGFGZZJKQGXIYZT7CQZH265VUXDHHIMUPRPVWWPR6TJ5O4W
 # 🌟 Community Rewards - Soroban Smart Contract
 
 ## 📌 Project Description
